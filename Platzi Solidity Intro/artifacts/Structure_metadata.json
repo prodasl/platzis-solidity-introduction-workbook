@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "isSigned",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Platzi Solidity Intro/Variables.sol": "Structure"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Platzi Solidity Intro/Variables.sol": {
+			"keccak256": "0x56ce03271fe7775adc4919b573d9d1f3ac7a359bdc7ffd632c007f8f1b9dc577",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b75c7a693460d977de4cde925e9ea7294faf30d89b6a41236e7f6c0043f984c8",
+				"dweb:/ipfs/QmVaa9wFgJHScRC4RYQdDHT9ozbg988SstZ3opqwAuGroX"
+			]
+		}
+	},
+	"version": 1
+}
