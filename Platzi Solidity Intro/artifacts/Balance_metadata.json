@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "contractStat",
+				"outputs": [
+					{
+						"internalType": "enum Balance.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Platzi Solidity Intro/MapEnums.sol": "Balance"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Platzi Solidity Intro/MapEnums.sol": {
+			"keccak256": "0x9cf1d0c0b16b75da4a42a9f87d22ab8d2b2352fdebea4aa5d79a2b727cda3621",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://95eca3c94b742fd4a8fdb5ab2883d40142d79e35b45e568f48f2af4339392bf3",
+				"dweb:/ipfs/Qmcas7eh7CTyRFhpD3akoV5XgQZq7pK4C63uxxqZwReNb5"
+			]
+		}
+	},
+	"version": 1
+}
