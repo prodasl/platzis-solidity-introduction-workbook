@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "word",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Platzi Solidity Intro/Storages.sol": "Storages"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Platzi Solidity Intro/Storages.sol": {
+			"keccak256": "0x93c0fcb4da7205d7e8af53f2f36bb3587b4764ecae888bb77a30aa9c1aa62025",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2bf1922dc3ff1882ce87c90c2fc8d2576f0cda3d76c92119dd6669a4c98b20bf",
+				"dweb:/ipfs/QmYW71KN1k5G59moWk2L6aCca7jram2667ccaFAmxGp3py"
+			]
+		}
+	},
+	"version": 1
+}
