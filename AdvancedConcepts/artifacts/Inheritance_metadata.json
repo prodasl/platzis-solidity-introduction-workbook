@@ -1,0 +1,121 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newName",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num2",
+						"type": "uint256"
+					}
+				],
+				"name": "Sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num2",
+						"type": "uint256"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AdvancedConcepts/Inheritance.sol": "Inheritance"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AdvancedConcepts/Inheritance.sol": {
+			"keccak256": "0xb8b4b36352bef6633a580b599edc18a032bdb334f15e56d85113ffa3bb2ec8db",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1a3dc3998abd039cf23ac0a3ace8282c06e0ba2ce64398e50c174dfc93512321",
+				"dweb:/ipfs/QmUBeNtPk55EUwKTNy4kFcwNsEkPeZeNwfSRXQP6aQ1KSt"
+			]
+		},
+		"AdvancedConcepts/Interface.sol": {
+			"keccak256": "0x5346e235501f75b22210f48c38f883bb87c389151e43ad973cfdb8644b9afcae",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1a249bbc21fc9f7fe94532d8fc9758aadfd5dde6c6bb2e0f3d8049e6351a5724",
+				"dweb:/ipfs/QmUZskAgxePwJsaRBZzGdmfvvxdUyRh4uM5wkMJr52MXjC"
+			]
+		},
+		"Platzi Solidity Intro/Modifiers.sol": {
+			"keccak256": "0xf4a386c64ace15e09f9d02c57e9e4d897740f0dd91a811aed091b7a32dd05dc2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5a16c9db07fdff80153da7702f5a5990c0e6f55007f48fef78d14960ba378bd3",
+				"dweb:/ipfs/QmQ6CfNsSzso58ju2xyeFt2YCpGMM2xwTnqnkPMhn2nJyG"
+			]
+		}
+	},
+	"version": 1
+}

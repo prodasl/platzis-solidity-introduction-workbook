@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num2",
+						"type": "uint256"
+					}
+				],
+				"name": "Sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Platzi Solidity Intro/Modifiers.sol": "Modifiers"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Platzi Solidity Intro/Modifiers.sol": {
+			"keccak256": "0xf4a386c64ace15e09f9d02c57e9e4d897740f0dd91a811aed091b7a32dd05dc2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5a16c9db07fdff80153da7702f5a5990c0e6f55007f48fef78d14960ba378bd3",
+				"dweb:/ipfs/QmQ6CfNsSzso58ju2xyeFt2YCpGMM2xwTnqnkPMhn2nJyG"
+			]
+		}
+	},
+	"version": 1
+}
