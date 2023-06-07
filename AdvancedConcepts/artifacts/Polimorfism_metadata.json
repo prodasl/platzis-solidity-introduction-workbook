@@ -61,7 +61,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -78,7 +78,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"AdvancedConcepts/SumImplementation.sol": "Inheritance"
+			"AdvancedConcepts/Inheritance.sol": "Polimorfism"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -92,20 +92,20 @@
 		"remappings": []
 	},
 	"sources": {
+		"AdvancedConcepts/Inheritance.sol": {
+			"keccak256": "0xf79a01a07510bdc1eecb9dc0d8a3b98d74eea5a87cd7d2759b049b200d78cacf",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f1828db0e4c32892fc81db1cab62d4de04c132e26df85f068d41afeadc736bf1",
+				"dweb:/ipfs/QmNZxiFoBKSpnduXk2m3iXwTxH1HeoQby9x1ZUKTEPcrrM"
+			]
+		},
 		"AdvancedConcepts/Interface.sol": {
 			"keccak256": "0x5346e235501f75b22210f48c38f883bb87c389151e43ad973cfdb8644b9afcae",
 			"license": "GPL-3.0",
 			"urls": [
 				"bzz-raw://1a249bbc21fc9f7fe94532d8fc9758aadfd5dde6c6bb2e0f3d8049e6351a5724",
 				"dweb:/ipfs/QmUZskAgxePwJsaRBZzGdmfvvxdUyRh4uM5wkMJr52MXjC"
-			]
-		},
-		"AdvancedConcepts/SumImplementation.sol": {
-			"keccak256": "0xdfc133e951469443a7a606f147ec47095daef7bd8a7168ac9feab7dac2245550",
-			"license": "GPL-3.0",
-			"urls": [
-				"bzz-raw://69f20e991970835b7978568832b34c303e027e035274eb0ba9709e2324305453",
-				"dweb:/ipfs/QmcDh8wYr2aqSxYfKX8hixpdReu7gtip282e4BMisXsrFD"
 			]
 		},
 		"Platzi Solidity Intro/Modifiers.sol": {

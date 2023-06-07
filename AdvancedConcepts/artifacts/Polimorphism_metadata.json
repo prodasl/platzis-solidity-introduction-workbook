@@ -8,60 +8,30 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "newName",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "contractAddr",
+						"type": "address"
+					}
+				],
+				"name": "SumFromContract",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "num1",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "num2",
-						"type": "uint256"
-					}
-				],
-				"name": "Sum",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "num1",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "num2",
-						"type": "uint256"
-					}
-				],
-				"name": "sum",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -78,7 +48,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"AdvancedConcepts/SumImplementation.sol": "Inheritance"
+			"AdvancedConcepts/Polimorphism.sol": "Polimorphism"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -100,12 +70,12 @@
 				"dweb:/ipfs/QmUZskAgxePwJsaRBZzGdmfvvxdUyRh4uM5wkMJr52MXjC"
 			]
 		},
-		"AdvancedConcepts/SumImplementation.sol": {
-			"keccak256": "0xdfc133e951469443a7a606f147ec47095daef7bd8a7168ac9feab7dac2245550",
+		"AdvancedConcepts/Polimorphism.sol": {
+			"keccak256": "0xea2cc112f8e6e0515518f38b1ae32cba7517ed0875f0b4b67e5ac0f22d05c09a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://69f20e991970835b7978568832b34c303e027e035274eb0ba9709e2324305453",
-				"dweb:/ipfs/QmcDh8wYr2aqSxYfKX8hixpdReu7gtip282e4BMisXsrFD"
+				"bzz-raw://05b3cc89a291ab35fd57e8040a8fe8132405db0ab1eb71927dce1c3de5ac6d06",
+				"dweb:/ipfs/QmW85VrcaiU39mQtZkxkGSdZw7cwGPfw8gt7Ty4wTayrJU"
 			]
 		},
 		"Platzi Solidity Intro/Modifiers.sol": {
