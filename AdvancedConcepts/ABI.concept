@@ -1,0 +1,5 @@
+ABI(Application Binary Interface)
+A simplification of a contract as an interface that provides the information about the structure
+not taking in count the implementation to provide the structure of the contract to be able to interact with another 
+contract or layers of software and the binary code of the implementation of their functions, it can be compared to 
+the compiled class of a java file.
